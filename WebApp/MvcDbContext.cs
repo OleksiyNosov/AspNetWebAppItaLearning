@@ -14,6 +14,6 @@ namespace WebApp
             
         }
 
-        DbSet<PostData> Users { get; set; }
+        public DbSet<PostData> Users { get; set; }
     }
 }
