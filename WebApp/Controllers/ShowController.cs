@@ -24,6 +24,10 @@ namespace WebApp.Controllers
         [HttpPost]
         public ActionResult PostForm(PostData item)
         {
+            if (!ModelState.IsValid)
+            {
+                return Content("Entered is not valid");
+            }
             return Content($"Hello {item.FirstName} {item.LastName},Your Age: {item.Age} \nGender: {item.Gender}");
         }
     }
