@@ -158,6 +158,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\PostData.cs" />
     <Compile Include="MvcDbContext.cs" />
+    <Compile Include="MyActionFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
